@@ -1,0 +1,117 @@
+/*========== GOOGLE FONTS ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/*========== VARIABLES CSS ==========*/
+:root {
+  /*========== Colors ==========*/
+  --first-color: #4D49BF;
+  --second-color: #05DBF2;
+  --body-color: #DFE9F2;
+  --title-color: #1C1C22;
+  --text-color: #58576B;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Montserrat', sans-serif;
+  --normal-font-size: .938rem;
+  --h3-font-size: 1.125rem;
+  --small-font-size: .75rem;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --normal-font-size: 1rem;
+    --h3-font-size: 1.25rem;
+    --small-font-size: .813rem;
+  }
+}
+
+/*========== BASE ==========*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+/* body, html {
+	margin: 0;
+  	padding: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	font-family: var(--body-font);
+  	font-size: var(--normal-font-size);
+}
+
+canvas {
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	pointer-events: none;
+}
+
+h3{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.widgets_container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.widget {
+    background-color: #f1f1f180;
+	width: 20%;
+	height: 40px;
+    padding: 0% 30px;
+	cursor: pointeur;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+}
+
+#widget1 {
+    top: 10px;
+    left: 10px;
+	width: 100px;
+	height: 40px;
+}
+
+#widget2 {
+    top: 10px;
+    right: 10px;
+}
+
+#widget3 {
+    top: 10px;
+    left: 10px;
+}
+
+#widget4 {
+    top: 10px;
+    right: 10px;
+} */
+
+
